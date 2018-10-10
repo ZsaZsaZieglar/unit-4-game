@@ -5,17 +5,22 @@
 
 body {
    font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
-   color: rgb(204, 10, 10);
+   color: black;
    background-color: yellow;
-   width: 960px;
+   margin: 0;
    font-size: 18px;
+   padding: 0;
 }
 
 .jumbotron {
-    background-color:#ebebeb;    
+    background-color:black !important;
+    color: yellow;    
     padding: 15px;
     margin-left: 130px;    
-    margin-bottom: 15px;
+    margin-bottom: 60px;
     width: 960px;
-    align: center;
+}
+
+.targetBtn {
+    margin-right: 30px;
 }
