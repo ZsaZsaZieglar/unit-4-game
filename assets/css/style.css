@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+    text-align:center;
+  }
+
+body {
+   font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
+   color: rgb(204, 10, 10);
+   background-color: yellow;
+   width: 960px;
+   font-size: 18px;
+}
+
+.jumbotron {
+    background-color:#ebebeb;    
+    padding: 15px;
+    margin-left: 130px;    
+    margin-bottom: 15px;
+    width: 960px;
+    align: center;
+}
