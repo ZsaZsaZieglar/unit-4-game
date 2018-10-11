@@ -1,7 +1,7 @@
-* {
+ * {
     box-sizing: border-box;
     text-align:center;
-  }
+  } 
 
 body {
    font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
@@ -23,4 +23,22 @@ body {
 
 .targetBtn {
     margin-right: 30px;
+}
+
+#crystals {
+   border: solid black;
+   padding-top: 50px;
+   margin-top: 50px;
+   margin-bottom: 50px;
+}
+
+.winBtn {
+    margin-right: 30px;
+}
+
+h3 {
+    color: purple;
+    font-style: oblique;
+    font-size: 18px;
+    padding-top: 40px;
 }
