@@ -25,6 +25,10 @@ body {
     margin-right: 30px;
 }
 
+.scoreBtn {
+    color:white;
+}
+
 #crystals {
    border: solid black;
    padding-top: 50px;
