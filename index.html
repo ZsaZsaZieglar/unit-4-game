@@ -17,69 +17,62 @@
             <h1 id="name">Crystal Collector</h1>                  
         </div>
         
-        <!-- Wrapper for two buttons-->
+        <!-- Wrapper for two labels and a START button -->
         <div class="row">
             <div class="col-lg-12">
-                <button type="button" class="btn btn-info btn-lg targetBtn">TARGET:</button>
-                <button type="button" class="btn btn-warning btn-lg scoreBtn">SCORE:</button>
+                <p>TARGET: <label id="target"></label></p>
+                <p>SCORE: <label id="u_score"></label></p>
+                <button id="start">START GAME</button>
             </div>     <!-- End First Columns -->    
         </div>   <!-- End First Row -->
 
 
         <!-- Wrapper for four thumbnail crystals -->
-        <div id="crystals">             
+        <div class="crystals">             
            <div class="row">
                 <div class="col-sm-3">
-                  <div class="crystal" class="rounded float-left">
-                    <a href="assets/images/blueCrystal.jpeg" target="_blank">
-                      <img src="assets/images/blueCrystal.jpeg"  alt="azurite" style="width:50%">
+                  <div id="crystalBlue" class="rounded float-left">        
+                      <img src="assets/images/blueCrystal.jpeg"  alt="azurite" style="width:50%" id="img1">
                       <div class="caption">
-                        <p>Azurite</p>
-                      </div>
-                    </a>
+                         <p>Azurite</p>
+                      </div>                   
                   </div>
                 </div>
 
                 <div class="col-sm-3">
-                        <div class="crystal" class="rounded float-left">
-                          <a href="assets/images/purpleCrystal.jpeg" target="_blank">
-                            <img src="assets/images/purpleCrystal.jpeg"  alt="amethyst" style="width:50%">
-                            <div class="caption">
-                              <p>Amethyst</p>
-                            </div>
-                          </a>
-                        </div>
-                      </div>                        
-                
+                    <div id="crystalPurple" class="rounded float-left">                   
+                        <img src="assets/images/purpleCrystal.jpeg"  alt="amethyst" style="width:50%">
+                        <div class="caption">
+                           <p>Amethyst</p>
+                        </div>                          
+                    </div>
+                 </div> 
+
                 <div class="col-sm-3">
-                  <div class="crystal" class="rounded float-left">
-                    <a href="assets/images/redCrystal.jpeg" target="_blank">
+                  <div id="crystalGarnet" class="rounded float-left">
                       <img src="assets/images/redCrystal.jpeg"  alt="garnet" style="width:50%">
                       <div class="caption">
-                        <p>Garnet</p>
+                         <p>Garnet</p>
                       </div>
-                    </a>
                   </div>
                 </div>
 
               <div class="col-sm-3">
-                    <div class="crystal" class="rounded float-left">
-                      <a href="assets/images/yellowCrystal.png" target="_blank">
+                    <div id="crystalAmber" class="rounded float-left">
                         <img src="assets/images/yellowCrystal.png"  alt="amber" style="width:50%">
                         <div class="caption">
                           <p>Amber</p>
                         </div>
-                      </a>
                     </div>
                 </div>                         
            </div>   <!-- End Second Row -->
         </div>   <!-- End Wrapping Crystals-->
               
-        <!-- Wrapper for two buttons-->
+        <!-- Wrapper for two labels-->
         <div class="row">
                 <div class="col-lg-12">
-                    <button type="button" class="btn btn-success btn-lg winBtn">WINS:</button>
-                    <button type="button" class="btn btn-danger btn-lg lossBtn">LOSSES:</button>
+                    <p>WIN: <label id="win"></label></p>
+                    <p>LOSS: <label id="loss"></label></p>
                 </div>     <!-- End First Columns -->    
             </div>   <!-- End Third Row -->
     
